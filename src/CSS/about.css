@@ -37,6 +37,12 @@ a:hover{
 #about{
     color: white;
 }
+#github{
+    color: yellow;
+    font-size: 25px;
+    padding: 0;
+    text-decoration: underline;
+}
 @media(max-width:700px){
     html, body{
         font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
