@@ -7,7 +7,6 @@ html, body{
 }
 nav{
     width: 525px;
-    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
     border-radius: 25px;
     text-decoration: none;
@@ -29,16 +28,12 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
     border-radius: 25px;
-    height: 400px;
+    height: 375px;
     width: 500px;
     box-shadow: 5px 5px 10px;
     margin-left: auto;
     margin-right: auto;
     backdrop-filter: blur(2px);
-}
-h1{
-    color: aliceblue;
-    font-size: 3em;
 }
 label{
     text-align: left;
@@ -67,15 +62,18 @@ input:hover{
     background-color: hsla(0, 0%, 0%, 0.1);
     border: 1px solid white;
     border-radius: 50px;
-    height: 80px;
-    width: 400px;
+    height: 60px;
+    width: 350px;
+    margin: 50px;
     cursor: pointer;
-    margin: 20px;
 }
 #myButton:hover{
     background-color: hsl(0, 0%, 0%, 0.2);
     color: white;
     border: 1px solid white;
+    width: 400px;
+    height: 80px;
+    margin: 40px;
 }
 #login{
     margin-left: auto;
@@ -84,7 +82,8 @@ input:hover{
     margin-bottom: auto;
     text-decoration: underline;
     font-size: 50px;
-    color: rgba(175, 175, 175);
+    margin: 10px;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 #signup{
@@ -103,6 +102,17 @@ input:hover{
 }
 #division{
     font-size: 60px;
+    color: white;
+}
+#forget-password{
+    color: blue;
+    text-decoration: underline;
+    font-size: small;
+    display: block;
+    position: absolute;
+    left: 150px;
+}
+#login-signup{
     color: white;
 }
 @media(max-width: 700px){
@@ -127,22 +137,38 @@ input:hover{
         padding: 10px;
         margin: -2px;
     }
-    input{
-        border: 1px solid white;
-        font-weight: bold;
-        width: 150px;
-        height: 12px
+    #usr{
+        position: absolute;
+        top: 70px;
+        left: 20px
     }
-    h1{
-        color: aliceblue;
-        font-size: 1.5em;
+    #myInput{
+        position: absolute;
+        top: 60px;
+        left: 120px;
+        border: 1px solid white;
+        width: 150px;
+        height: 12px;
+    }
+    #usr1{
+        position: absolute;
+        top: 110px;
+        left: 20px
+    }
+    #myInput1{
+        position: absolute;
+        top: 100px;
+        left: 120px;
+        border: 1px solid white;
+        width: 150px;
+        height: 12px;
     }
     label{
         color: white;
-        font-size: 15px;
+        font-size: 20px;
     }
     #main{
-        height: 350px;
+        height: 230px;
         width: 300px;
         margin-top: 20px;
         margin-left: auto;
@@ -150,21 +176,27 @@ input:hover{
     }
     #myButton{
         font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
-        margin: 10px;
         font-size: 20px;
         height: 40px;
-        width: 200px;
+        width: 175px;
+        margin: 25px;
         border: 1px solid white;
         border-radius: 25px;
-        background-color: hsl(0, 0%, 0%, 0.2);
         color: rgb(175, 175, 175);
     }
+    #myButton:hover{
+        font-size: 25px;
+        width: 225px;
+        margin: 20px;
+        height: 50px;
+        border-radius: 30px;
+    }
     #login{
-        font-size: 30px;
-        color: rgba(175, 175, 175);
+        font-size: 28px;
+        color: rgb(255, 255, 255);
     }
     #signup{
-        font-size: 30px;
+        font-size: 28px;
         color: rgba(175, 175, 175); 
     }
     #login:hover{
@@ -177,5 +209,10 @@ input:hover{
     }
     #division{
         font-size: 30px;
+    }
+    #forget-password{
+        position: absolute;
+        top: 130px;
+        left: 115px;
     }
 }

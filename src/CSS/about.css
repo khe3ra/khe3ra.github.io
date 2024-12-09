@@ -5,13 +5,19 @@ html, body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+#first-div{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    backdrop-filter: blur(2px);
+}
 p{
+    padding: 20px;
     color: white;
-    font-size: 40px;
+    font-size: 25px;
 }
 nav{
     width: 525px;
-    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
     border-radius: 25px;
     text-decoration: none;
@@ -27,4 +33,33 @@ a{
 }
 a:hover{
     color: white;
+}
+#about{
+    color: white;
+}
+@media(max-width:700px){
+    html, body{
+        font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-image: url(../assets/pexels-philippedonn-1169754.jpg);
+    }
+    p{
+        font-size: 20px;
+    }
+    nav{
+        width: 325px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 5px;
+        backdrop-filter: blur(2px);
+        display: inline block;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(175, 175, 175);
+        font-size: 15px;
+        padding: 10px;
+        margin: -2px;
+    }
 }

@@ -7,7 +7,6 @@ html, body{
 }
 nav{
     width: 525px;
-    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
     border-radius: 25px;
     text-decoration: none;
@@ -29,7 +28,7 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid white;
     border-radius: 25px;
-    height: 600px;
+    height: 500px;
     width: 500px;
     box-shadow: 5px 5px 10px;
     margin-left: auto;
@@ -41,7 +40,6 @@ h1{
     font-size: 3em;
 }
 label{
-    text-align: left;
     color: white;
     font-size: 25px;
 }
@@ -61,30 +59,47 @@ input:hover{
     background-color: rgba(0, 0, 0, 0);
 }
 #myInput2{
-    width: 225px;
+    width: 210px;
 }
 #myInput3{
-    width: 175px;
+    width: 350px;
 }
 #myInput4{
-    width: 100px;
+    width: 200px;
+}
+#otp-button{
+    border: 1px solid white;
+    border-radius: 25px;
+    color: rgb(175, 175, 175);
+    font-size: 12px;
+    height: 30px;
+    width: 150px;
+    background-color: hsla(0, 0%, 0%, 0);
+}
+#otp-button:hover{
+    color: rgb(255, 0, 0);
+    background-color: hsla(0, 0%, 100%, 0.1);
 }
 #myButton{
-    font-size: 40px;
+    font-size: 30px;
     font-family: sans-serif;
     color: rgb(175, 175, 175);
-    background-color: hsla(0, 0%, 0%, 0.1);
+    background-color: hsla(0, 0%, 0%, 0);
     border: 1px solid white;
     border-radius: 50px;
-    height: 80px;
-    width: 400px;
+    height: 50px;
+    width: 350px;
     cursor: pointer;
-    margin: 20px;
+    margin: 40px;
 }
 #myButton:hover{
     background-color: hsl(0, 0%, 0%, 0.2);
     color: white;
+    font-size: 40px;
     border: 1px solid white;
+    margin: 20px;
+    height: 80px;
+    width: 400px;
 }
 #login{
     margin-left: auto;
@@ -99,7 +114,7 @@ input:hover{
 #signup{
     text-decoration: underline;
     font-size: 50px;
-    color: rgba(175, 175, 175); 
+    color: rgb(255, 255, 255); 
     cursor: pointer;
 }
 #login:hover{
@@ -112,6 +127,9 @@ input:hover{
 }
 #division{
     font-size: 60px;
+    color: white;
+}
+#login-signup{
     color: white;
 }
 @media(max-width: 700px){
@@ -137,13 +155,18 @@ input:hover{
         margin: -2px;
     }
     #myInput2{
-        width: 100px;
-    }
-    #myInput3{
         width: 80px;
     }
+    #myInput3{
+        width: 190px;
+    }
     #myInput4{
-        width: 50px;
+        width: 100px;
+    }
+    #otp-button{
+        height: 20px;
+        width: 90px;
+        font-size: 8px;
     }
     input{
         border: 1px solid white;
@@ -157,10 +180,10 @@ input:hover{
     }
     label{
         color: white;
-        font-size: 15px;
+        font-size: 20px;
     }
     #main{
-        height: 350px;
+        height: 380px;
         width: 300px;
         margin-top: 20px;
         margin-left: auto;
@@ -169,13 +192,21 @@ input:hover{
     #myButton{
         font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
         margin: 10px;
-        font-size: 20px;
-        height: 40px;
-        width: 200px;
+        font-size: 25px;
+        height: 50px;
+        width: 175px;
         border: 1px solid white;
         border-radius: 25px;
         background-color: hsl(0, 0%, 0%, 0.2);
         color: rgb(175, 175, 175);
+        margin: 30px;
+    }
+    #myButton:hover{
+        width: 225px;
+        margin: 25px;
+        height: 60px;
+        font-size: 30px;
+        border-radius: 30px;
     }
     #login{
         font-size: 30px;
@@ -183,7 +214,7 @@ input:hover{
     }
     #signup{
         font-size: 30px;
-        color: rgba(175, 175, 175); 
+        color: rgb(255, 255, 255); 
     }
     #login:hover{
         color: white;
