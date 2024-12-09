@@ -1,0 +1,30 @@
+html, body{
+    font-family: sans-serif;
+    background-image: url(../assets/pexels-philippedonn-1169754.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+p{
+    color: white;
+    font-size: 40px;
+}
+nav{
+    width: 525px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+    backdrop-filter: blur(4px);
+}
+a{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    font-size: 25px;
+    padding: 10px;
+    margin: -2px;
+}
+a:hover{
+    color: white;
+}

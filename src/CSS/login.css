@@ -1,0 +1,181 @@
+html, body{
+    font-family: sans-serif;
+    background-image: url(../assets/pexels-philippedonn-1169754.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 525px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+    backdrop-filter: blur(4px);
+}
+a{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    font-size: 25px;
+    padding: 10px;
+    margin: -2px;
+}
+a:hover{
+    color: white;
+}
+#main{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 25px;
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(2px);
+}
+h1{
+    color: aliceblue;
+    font-size: 3em;
+}
+label{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+input{
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    margin-top: 20px;
+}
+input:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+#myButton{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(175, 175, 175);
+    background-color: hsla(0, 0%, 0%, 0.1);
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 80px;
+    width: 400px;
+    cursor: pointer;
+    margin: 20px;
+}
+#myButton:hover{
+    background-color: hsl(0, 0%, 0%, 0.2);
+    color: white;
+    border: 1px solid white;
+}
+#login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: underline;
+    font-size: 50px;
+    color: rgba(175, 175, 175);
+    cursor: pointer;
+}
+#signup{
+    text-decoration: underline;
+    font-size: 50px;
+    color: rgba(175, 175, 175); 
+    cursor: pointer;
+}
+#login:hover{
+    color: white;
+    background-color: hsl(0, 0%, 0%, 0.2);
+}
+#signup:hover{
+    color: white;
+    background-color: hsl(0, 0%, 0%, 0.2);
+}
+#division{
+    font-size: 60px;
+    color: white;
+}
+@media(max-width: 700px){
+    html, body{
+        font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-image: url(../assets/pexels-philippedonn-1169754.jpg);
+    }
+    nav{
+        width: 325px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 5px;
+        backdrop-filter: blur(2px);
+        display: inline block;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(175, 175, 175);
+        font-size: 15px;
+        padding: 10px;
+        margin: -2px;
+    }
+    input{
+        border: 1px solid white;
+        font-weight: bold;
+        width: 150px;
+        height: 12px
+    }
+    h1{
+        color: aliceblue;
+        font-size: 1.5em;
+    }
+    label{
+        color: white;
+        font-size: 15px;
+    }
+    #main{
+        height: 350px;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #myButton{
+        font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 10px;
+        font-size: 20px;
+        height: 40px;
+        width: 200px;
+        border: 1px solid white;
+        border-radius: 25px;
+        background-color: hsl(0, 0%, 0%, 0.2);
+        color: rgb(175, 175, 175);
+    }
+    #login{
+        font-size: 30px;
+        color: rgba(175, 175, 175);
+    }
+    #signup{
+        font-size: 30px;
+        color: rgba(175, 175, 175); 
+    }
+    #login:hover{
+        color: white;
+        background-color: hsl(0, 0%, 0%, 0.2);
+    }
+    #signup:hover{
+        color: white;
+        background-color: hsl(0, 0%, 0%, 0.2);
+    }
+    #division{
+        font-size: 30px;
+    }
+}
