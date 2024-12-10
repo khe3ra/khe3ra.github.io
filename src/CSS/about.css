@@ -7,14 +7,14 @@ html, body{
 }
 #first-div{
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 25px;
     margin: 20px;
     backdrop-filter: blur(2px);
 }
 p{
     padding: 20px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 nav{
     width: 525px;
@@ -39,7 +39,7 @@ a:hover{
 }
 #github{
     color: yellow;
-    font-size: 25px;
+    font-size: 20px;
     padding: 0;
     text-decoration: underline;
 }

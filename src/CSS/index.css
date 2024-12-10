@@ -4,9 +4,12 @@ html, body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    scroll-behavior: smooth;
 }
 nav{
     width: 525px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid white;
     border-radius: 25px;
     text-decoration: none;
@@ -26,10 +29,16 @@ a{
 a:hover{
     color: white;
 }
-.temporary{
-    color: white;
-    font-size: 22px;
+#main{
     border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 90%;
+    height: 800px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
 }
 @media(max-width: 700px){
     html, body{
